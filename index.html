@@ -2,77 +2,128 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suraj Rai | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+    <title>Suraj Rai</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
 <body>
-    <header>
-        <img src="images/Namaste_2.JPG" alt="Suraj Rai">
+
+<!-- ==========================================
+                SIDEBAR
+=========================================== -->
+
+<aside class="sidebar">
+
+    <h1 class="logo">
+        Suraj Rai
+    </h1>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#">Home</a></li>
+
+            <li><a href="pages/about.html">About</a></li>
+
+            <li><a href="pages/research.html">Research</a></li>
+
+            <li><a href="pages/projects.html">Projects</a></li>
+
+            <li><a href="pages/resume.html">Resume</a></li>
+
+            <li><a href="pages/contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="social-links">
+
+        <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-brands fa-orcid"></i>
+        </a>
+
+    </div>
+
+</aside>
+
+
+<!-- ==========================================
+                HOME
+=========================================== -->
+
+<main>
+
+<section class="home">
+
+    <div class="cover-image">
+
+        <img src="assets/images/background/background.jpg"
+             alt="Background">
+
+    </div>
+
+
+    <div class="profile">
+
+        <img src="assets/images/profile/Profile.jpg"
+             alt="Profile">
+
+    </div>
+
+
+    <div class="intro">
+
+        <h2>Hello, I'm</h2>
+
         <h1>Suraj Rai</h1>
+
+        <h3>Software Engineering Student</h3>
+
         <p>
-            Software Engineering Student
-            <br>
-            Mathematics Enthusiast
+
+            Passionate about Mathematics,
+            Software Development,
+            and Scientific Research.
+
         </p>
-    </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            Hello! I am Suraj Rai, a Software Engineering student who enjoys
-            Mathematics, Algorithms, Problem Solving and Software Development.
-            I enjoy exploring mathematical patterns and applying them to
-            practical programming projects.
-        </p>
-    </section>
+    </div>
 
-    <section>
-        <h2>Projects</h2>
-        <div class="card">
-            <h3>Tic-Tac-Toe Mathematical Analysis</h3>
-            <p>
-                A mathematical approach that uses Arithmetic Progressions
-                to detect winning lines in scalable Tic-Tac-Toe boards.
-            </p>
-        </div>
+</section>
 
-        <div class="card">
-            <h3>PIN Simulator</h3>
-            <p>
-                A combinatorial project that analyzes PIN security using
-                permutations and combinations.
-            </p>
-        </div>
+</main>
 
-        <div class="card">
-            <h3>Future Research</h3>
-            <p>
-                Exploring mathematical modeling, pattern recognition,
-                algorithms and software engineering concepts.
-            </p>
-        </div>
-    </section>
+<!-- JavaScript -->
 
-    <section class="quote-section">
-        <h2>Favorite Thoughts</h2>
-        <p id="quote">
-            Mathematics is the language of patterns.
-        </p>
-        <button onclick="changeQuote()">
-            New Quote
-        </button>
-    </section>
+<script src="assets/js/script.js"></script>
 
-    <footer>
-        <p>
-            © 2026 Suraj Rai
-        </p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
+
 </html>
