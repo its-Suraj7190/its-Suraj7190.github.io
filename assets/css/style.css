@@ -54,8 +54,8 @@ body{
 .sidebar ul{
  list-style: none;
  position:absolute;
- top:50%;
- left:50%;
+ top:56%;
+ left:56%;
  transform:translate(-50%, -50%);
 }
 
@@ -82,9 +82,12 @@ body{
 ========================================================== */
 
 .social-links{
-    display:flex;
-    justify-content:center;
-    gap:18px;
+    position: absolute;
+    bottom: 30px;      /* Distance from bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 25px;         /* Equal spacing */
 }
 
 .social-links a{
