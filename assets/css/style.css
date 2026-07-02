@@ -36,7 +36,7 @@ body{
     left:15px;
     width:280px;
     height:calc(100vh - 30px);
-    background:#111827;
+    background:#d3d3d3;
     border-radius:25px;
     display:flex;
     flex-direction:column;
