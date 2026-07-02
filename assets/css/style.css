@@ -37,6 +37,7 @@ body{
     width:280px;
     height:calc(100vh - 30px);
     background:#d3d3d3;
+    color:#000000;
     border-radius:5px;
     display:flex;
     flex-direction:column;
