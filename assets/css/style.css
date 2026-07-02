@@ -96,10 +96,9 @@ body{
 ========================================================== */
 
 .social-links{
-    position: absolute;
-    bottom: 30px;      /* Distance from bottom */
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin-top:10px;
+    justify-content:center;
     display: flex;
     gap: 25px;         /* Equal spacing */
 }
