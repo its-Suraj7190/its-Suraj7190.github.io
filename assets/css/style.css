@@ -1,8 +1,6 @@
 /* ====================GOOGLE FONT ========================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-
-
 /* =================== RESET ========================*/
 *{
     margin:0;
@@ -34,13 +32,13 @@ body{
     border-radius:5px;
     display:flex;
     flex-direction:column;
-    padding:40px 25px;
+    padding:10px 10px;
 }
 
 
 .logo{
     color:#000000;
-    font-size:5px;
+    font-size:10px;
     font-weight:700;
     letter-spacing:1px;
     text-align:center;
