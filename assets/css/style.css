@@ -13,11 +13,14 @@ html{
  }
 
 body{
-    font-family:'Poppins',sans-serif;
+    font-family:'Inter',sans-serif;
     background:#f8fafc;
     color: #1f2937;
 }
 
+h1,h2,h3{
+    font-family: 'Popins', sans-serif;
+}
 
 /* ===============  SIDEBAR ================== */
 
@@ -37,13 +40,14 @@ body{
 
 
 .logo{
-    color:#000000;
-    font-size:22px;
+    color:#256;
+    font-size:30px;
     font-weight:700;
     letter-spacing:5px;
     word-spacing:12px;
     text-align:center;
     margin-bottom:5px;
+    font-family:'Inter', sans-serif;
 }
 
 .sidebar ul{
