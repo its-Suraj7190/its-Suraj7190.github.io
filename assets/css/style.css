@@ -63,7 +63,7 @@ h1,h2,h3{
     font-weight:500;
     text-align:center;
     letter-spacing:1px;
-    word-spacing:10px;
+    word-spacing:15px;
     margin-bottom:60px;
 }
 
@@ -194,7 +194,7 @@ main{
 .intro h1{
     font-size:48px;
     margin-top:8px;
-    word-spacing:9x;
+    word-spacing: 13px;
 
 }
 
