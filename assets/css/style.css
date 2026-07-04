@@ -21,7 +21,7 @@ body{
 
 /* ===============  SIDEBAR ================== */
 
-.sidebar{
+.sidebar {
     position:fixed;
     top:15px;
     left:15px;
@@ -32,7 +32,7 @@ body{
     border-radius:5px;
     display:flex;
     flex-direction:column;
-    padding:10px 10px;
+    padding:5px 5px;
 }
 
 
@@ -121,8 +121,8 @@ body{
 /* =================== MAIN ========================== */
 
 main{
-    margin-left:100px;
-    padding:15px;
+    margin-left:125px;
+    padding:80px;
 }
 
 
