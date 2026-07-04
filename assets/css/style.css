@@ -59,6 +59,7 @@ h1,h2,h3,h4{
 }
 
 .sidebar h4{
+    color: #2563eb;
     font-size:10px;
     font-weight:500;
     letter-spacing:1px;
@@ -131,7 +132,7 @@ h1,h2,h3,h4{
 /* =================== MAIN ========================== */
 
 main{
-    margin-left:395px;
+    margin-left:300px;
     padding:40px;
 }
 
