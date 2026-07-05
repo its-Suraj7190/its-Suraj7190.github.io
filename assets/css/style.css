@@ -234,7 +234,7 @@ main{
     border-radius:10px;
     box-shadow:0 5px 20px rgba(0,0,0,.08);
     padding:50px;
-    margin:60px, 0;
+    margin:60px 0;
 }
 
 /* Section Titles */
@@ -288,7 +288,7 @@ main{
     font-size: 14px;
     color: #555;                /* softer tone */
     letter-spacing: 1px;
-    word-spacing: 8px;          /* space between "2026 • Software" */
+    word-spacing: 15px;          /* space between "2026 • Software" */
     text-align: left;           /* or center if you prefer */
 }
   
@@ -327,9 +327,9 @@ main{
 
 /* Section title (Education) */
 #education h1 {
-    display: flex;              /* align icon + text side by side */
+    display: flex;           /* align icon + text side by side */
     align-items: center;        /* vertical alignment */
-    gap: 10px;                  /* space between icon and text */
+    gap: 20px;                  /* space between icon and text */
     font-size: 22px;
     font-weight: 700;
 }
@@ -338,7 +338,7 @@ main{
 .education-card h3 {
     display: flex;              /* align icon + text side by side */
     align-items: center;
-    gap: 8px;                   /* space between icon and title */
+    gap: 12px;                   /* space between icon and title */
     font-size: 18px;
     font-weight: 600;
 }
@@ -349,7 +349,7 @@ main{
     font-size: 14px;
     color: #555;
     letter-spacing: 1px;
-    word-spacing: 8px;          /* space between “2019 • CGPA : 3.40 (85%)” */
+    word-spacing: 12px;          /* space between “2019 • CGPA : 3.40 (85%)” */
 }
 
 /* Optional: link styling */
