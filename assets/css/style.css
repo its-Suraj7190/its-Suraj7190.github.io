@@ -302,7 +302,6 @@ main{
 }
 */
   
-/* Section title (Software Projects) */
 /*
 #software h2 {
     display: flex;
@@ -313,7 +312,6 @@ main{
 }
 */
 
-/* Individual project titles */
 /*
 .project h3 {
     display: flex;
@@ -324,7 +322,6 @@ main{
 }
 */
 
-/* Icon styling */
 /*
 .project h3 i {
     font-size: 20px;
@@ -332,7 +329,6 @@ main{
 }
 */
 
-/* Metadata line (year, language, type) */
 /*
 .project-meta {
     margin-top: 6px;
@@ -342,7 +338,7 @@ main{
     word-spacing: 8px;      
 } */
 
-/* Section title (Education) */
+
 /*
 #education h1 {
     display: flex;          
