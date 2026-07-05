@@ -78,7 +78,11 @@ h1,h2,h3,h4{
     margin:18px 0;
 }
 
-.sidebar nav ul li a{
+.sidebar nav ul li a {
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap:15px;
     text-decoration:none;
     color:#000000;
     font-size:15px;
@@ -86,9 +90,6 @@ h1,h2,h3,h4{
     letter-spacing:1.2px;
     text-transform:uppercase;
     transition:all .35s ease;
-    display:flex;
-    align-items:center;
-    gap:15px;
 }
 
 
@@ -97,7 +98,9 @@ h1,h2,h3,h4{
     padding-left:12px;
 }
 
-.sidebar ul li a i{
+.sidebar ul li a i {
+    width:22px;
+    text-align:center;
     font-size:18px;
 }
 
@@ -267,102 +270,6 @@ main{
 .content-section h2 i {
     margin-right: 10px;            /* or Gap between Icon adn Section Topics*/
 }
-/* For all subsection headings with icons */
-.paper h3 {
-    display: flex;              /* align icon + text side by side */
-    align-items: center;        /* vertical alignment */
-    gap: 10px;                  /* space between icon and text */
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/* Icon size control */
-.paper h3 i {
-    font-size: 20px;
-    color: #2563eb;             /* optional: highlight icon color */
-}
-
-/* For metadata line (date + type) */
-.paper-meta {
-    margin-top: 6px;            /* space below the title */
-    font-size: 14px;
-    color: #555;                /* softer tone */
-    letter-spacing: 1px;
-    word-spacing: 15px;          /* space between "2026 • Software" */
-    text-align: left;           /* or center if you prefer */
-}
-  
-/* Section title (Software Projects) */
-#software h2 {
-    display: flex;
-    align-items: center;
-    gap: 10px;              /* space between icon and title text */
-    font-size: 20px;
-    font-weight: 700;
-}
-
-/* Individual project titles */
-.project h3 {
-    display: flex;
-    align-items: center;
-    gap: 10px;              /* space between icon and project name */
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/* Icon styling */
-.project h3 i {
-    font-size: 20px;
-    color: #2563eb;         /* optional accent color */
-}
-
-/* Metadata line (year, language, type) */
-.project-meta {
-    margin-top: 6px;        /* space below project title */
-    font-size: 14px;
-    color: #555;
-    letter-spacing: 1px;
-    word-spacing: 8px;      /* space between items like “2026 • C Programming • Cybersecurity Mathematics” */
-}
-
-/* Section title (Education) */
-#education h1 {
-    display: flex;           /* align icon + text side by side */
-    align-items: center;        /* vertical alignment */
-    gap: 20px;                  /* space between icon and text */
-    font-size: 22px;
-    font-weight: 700;
-}
-
-/* Individual education cards */
-.education-card h3 {
-    display: flex;              /* align icon + text side by side */
-    align-items: center;
-    gap: 12px;                   /* space between icon and title */
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/* Metadata line (year + CGPA + percentage) */
-.education-meta {
-    margin-top: 6px;            /* space below title */
-    font-size: 14px;
-    color: #555;
-    letter-spacing: 1px;
-    word-spacing: 12px;          /* space between “2019 • CGPA : 3.40 (85%)” */
-}
-
-/* Optional: link styling */
-.education-links a {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 500;
-    transition: .3s;
-}
-
-.education-links a:hover {
-    text-decoration: underline;
-}
 
 /* =================== RESPONSIVE DESIGN ========================== */
 
@@ -445,4 +352,9 @@ main{
     .content-section h2 {
         font-size: 24px;
     }
+}
+
+.resume-card li {
+    font-size: 16px;
+    color: #1f2937;
 }
