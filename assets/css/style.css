@@ -19,7 +19,7 @@ body{
 }
 
 h1,h2,h3,h4{
-    font-family: 'Popins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ===============  SIDEBAR ================== */
@@ -85,13 +85,19 @@ h1,h2,h3,h4{
     letter-spacing:1.2px;
     text-transform:uppercase;
     transition:all .35s ease;
-    display:inline-block;
+    display:flex;
+    align-items:center;
+    gap:8px;
 }
 
 
 .sidebar ul li a:hover{
     color:#2563eb;
     padding-left:12px;
+}
+
+.sidebar ul li a i{
+    font-size:18px;
 }
 
 /* ***********************Copyright ************************** */
