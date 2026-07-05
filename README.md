@@ -115,5 +115,5 @@ Research Interests:
 * Software Engineering
 
 ---
-## 📜 License and © Copyrights :
+## 📝 License and © Copyrights :
 © 2026 Suraj Rai. All rights reserved.
