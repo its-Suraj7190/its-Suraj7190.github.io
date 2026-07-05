@@ -291,3 +291,75 @@ main{
     word-spacing: 8px;          /* space between "2026 • Software" */
     text-align: left;           /* or center if you prefer */
 }
+  
+/* Section title (Software Projects) */
+#software h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;              /* space between icon and title text */
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Individual project titles */
+.project h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;              /* space between icon and project name */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Icon styling */
+.project h3 i {
+    font-size: 20px;
+    color: #2563eb;         /* optional accent color */
+}
+
+/* Metadata line (year, language, type) */
+.project-meta {
+    margin-top: 6px;        /* space below project title */
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 1px;
+    word-spacing: 8px;      /* space between items like “2026 • C Programming • Cybersecurity Mathematics” */
+}
+
+/* Section title (Education) */
+#education h1 {
+    display: flex;              /* align icon + text side by side */
+    align-items: center;        /* vertical alignment */
+    gap: 10px;                  /* space between icon and text */
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Individual education cards */
+.education-card h3 {
+    display: flex;              /* align icon + text side by side */
+    align-items: center;
+    gap: 8px;                   /* space between icon and title */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Metadata line (year + CGPA + percentage) */
+.education-meta {
+    margin-top: 6px;            /* space below title */
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 1px;
+    word-spacing: 8px;          /* space between “2019 • CGPA : 3.40 (85%)” */
+}
+
+/* Optional: link styling */
+.education-links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.education-links a:hover {
+    text-decoration: underline;
+}
