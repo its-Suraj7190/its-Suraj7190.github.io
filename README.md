@@ -52,7 +52,7 @@ Each publication includes a direct DOI link to its Zenodo archive.
 
 ---
 
-## Software Projects :
+## 📂 Software Projects :
 
 Current projects include:
 
@@ -86,7 +86,7 @@ Each project contains:
 
 ---
 
-## Future Improvements :
+## 🚀 Future Improvements :
 
 * Dark mode
 * Interactive mathematical visualizations
@@ -98,7 +98,7 @@ Each project contains:
 
 ---
 
-##👨‍💻 Author :
+## 👨‍💻 Author :
 
 **Suraj Rai**
 
