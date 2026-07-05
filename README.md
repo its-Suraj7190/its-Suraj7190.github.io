@@ -1,6 +1,6 @@
 # 🌐 Suraj Rai – Academic Portfolio Website
 
-## Overview
+## 📖 Overview :
 
 This repository contains the source code for my personal academic portfolio website.
 
@@ -10,7 +10,7 @@ The website emphasizes a clean and minimal academic design while maintaining res
 
 ---
 
-## Features
+##  ✨ Features : 
 
 * Personal introduction and academic profile
 * Educational background
@@ -23,7 +23,7 @@ The website emphasizes a clean and minimal academic design while maintaining res
 
 ---
 
-## Sections
+## Sections :
 
 * Home
 * About
@@ -35,7 +35,7 @@ The website emphasizes a clean and minimal academic design while maintaining res
 
 ---
 
-## Research
+## Research :
 
 The Research section contains mathematical papers covering topics including:
 
@@ -52,7 +52,7 @@ Each publication includes a direct DOI link to its Zenodo archive.
 
 ---
 
-## Software Projects
+## Software Projects :
 
 Current projects include:
 
@@ -70,7 +70,7 @@ Each project contains:
 
 ---
 
-## Technologies Used
+## Technologies Used :
 
 * HTML5
 * CSS3
@@ -79,14 +79,14 @@ Each project contains:
 
 ---
 
-## Academic Profiles
+## 📚  Academic Profiles :
 
 * ORCID: https://orcid.org/0009-0009-9320-8962
 * Zenodo: https://zenodo.org/
 
 ---
 
-## Future Improvements
+## Future Improvements :
 
 * Dark mode
 * Interactive mathematical visualizations
@@ -98,7 +98,7 @@ Each project contains:
 
 ---
 
-## Author
+##👨‍💻 Author :
 
 **Suraj Rai**
 
@@ -115,5 +115,5 @@ Research Interests:
 * Software Engineering
 
 ---
-
+## 📜 License and Copyrights :
 © 2026 Suraj Rai. All rights reserved.
