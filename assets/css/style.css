@@ -241,7 +241,10 @@ main{
 }
 
 /* Section Titles */
-.content-section h2{
+.content-section h1, .content-section h2{
+    display: flex;
+    align-items:center;
+    gap:10px;
     font-size:36px;
     color:#1f2937;
     margin-bottom:30px;
