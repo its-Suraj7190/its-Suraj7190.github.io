@@ -241,7 +241,7 @@ main{
 }
 
 /* Section Titles */
-.content-section h1, .content-section h2{
+.content-section h1{
     display: flex;
     align-items:center;
     gap:10px;
@@ -250,6 +250,16 @@ main{
     margin-bottom:30px;
     border-bottom:2px solid #2563eb;
     padding-bottom:10px;
+}
+.content-section h2{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:42px;
+    color:#1f2937;
+    margin-bottom:35px;
+    padding-bottom:12px;
+    border-bottom:3px solid #2563eb;
 }
 
 /* Paragraph */
@@ -383,6 +393,144 @@ main{
     text-decoration: underline;
 }
 */
+
+/* ================= EDUCATION CARDS ================= */
+
+.education-card{
+    background:#ffffff;
+    border:2px solid #e5e7eb;
+    border-radius:18px;
+    padding:22px 24px;
+    margin:18px 0;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.35s ease;
+}
+
+.education-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+}
+
+.education-card h3{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:22px;
+    color:#1f2937;
+    margin-bottom:8px;
+}
+
+.education-meta{
+    color:#555;
+    font-size:15px;
+    margin-bottom:10px;
+}
+
+.education-links a{
+    color:#2563eb;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.education-links a:hover{
+    text-decoration:underline;
+}
+
+/* ================= RESEARCH PAPERS ================= */
+
+.paper{
+    background:#ffffff;
+    border:2px solid #e5e7eb;
+    border-radius:18px;
+    padding:24px;
+    margin:22px 0;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.paper:hover{
+    transform:translateY(-4px);
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+}
+
+.paper h3{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:22px;
+    color:#1f2937;
+}
+
+.paper-meta{
+    color:#666;
+    margin:10px 0;
+    font-size:15px;
+}
+
+.paper p{
+    margin:15px 0;
+}
+
+.paper-links a{
+    color:#2563eb;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.paper-links a:hover{
+    text-decoration:underline;
+}
+
+/* ================= SOFTWARE PROJECTS ================= */
+
+.project{
+    background:#ffffff;
+    border:2px solid #e5e7eb;
+    border-radius:18px;
+    padding:24px;
+    margin:22px 0;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.project:hover{
+    transform:translateY(-4px);
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+}
+
+.project h3{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:22px;
+    color:#1f2937;
+}
+
+.project-meta{
+    color:#666;
+    margin:10px 0;
+    font-size:15px;
+}
+
+.project p{
+    margin:15px 0;
+}
+
+.project-links{
+    display:flex;
+    gap:20px;
+    margin-top:18px;
+}
+
+.project-links a{
+    color:#2563eb;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.project-links a:hover{
+    text-decoration:underline;
+}
 
 /* =================== RESPONSIVE DESIGN ========================== */
 
