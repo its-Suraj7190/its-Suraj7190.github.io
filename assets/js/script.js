@@ -4,12 +4,12 @@ function toggleDetails(id, button)
 
     if(details.style.display === "block")
     {
-        details.style.display = "none";
-        button.textContent = "📖 View Details";
+        details.style.display="none";
+        button.innerHTML="▼ View Details";
     }
     else
     {
-        details.style.display = "block";
-        button.textContent = "📖 Hide Details";
+        details.style.display="block";
+        button.innerHTML="▲ Hide Details";
     }
 }
