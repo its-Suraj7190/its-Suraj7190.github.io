@@ -253,111 +253,6 @@ main{
     font-size:17px;
 }
 
-/*
-.content-section h2 i {
-    margin-right: 10px;
- } 
-*/
-
-/*
-.paper h3 {
-    display: flex;
-    align-items: center;        
-    gap: 10px;                  
-    font-size: 18px;
-    font-weight: 600;
-}
-*/
-
-/* Icon size control 
-.paper h3 i {
-    font-size: 20px;
-    color: #2563eb;           
-}
-*/
-
-/* For metadata line (date + type) */
-/*
-.paper-meta {
-    margin-top: 6px;            
-    font-size: 14px;
-    color: #555;                
-    letter-spacing: 1px;
-    word-spacing: 15px;          
-    text-align: left;           
-}
-*/
-
-/*
-#software h2 {
-    display: flex;
-    align-items: center;
-    gap: 10px;              
-    font-size: 20px;
-    font-weight: 700;
-}
-*/
-/*
-.project h3 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 18px;
-    font-weight: 600;
-}
-*/
-/*
-.project h3 i {
-    font-size: 20px;
-    color: #2563eb;         
-}
-*/
-/*
-.project-meta {
-    margin-top: 6px;
-    font-size: 14px;
-    color: #555;
-    letter-spacing: 1px;
-    word-spacing: 8px;      
-} */
-/*
-#education h1 {
-    display: flex;          
-    align-items: center;        
-    gap: 20px;                  
-    font-size: 22px;
-    font-weight: 700;
-} */
-/*
-.education-card h3 {
-    display: flex;
-    align-items: center;
-    gap: 12px;                   
-    font-size: 18px;
-    font-weight: 600;
-}*/
-/* 
-.education-meta {
-    margin-top: 6px;            
-    font-size: 14px;
-    color: #555;
-    letter-spacing: 1px;
-    word-spacing: 12px;          
-}*/
-/*
-.education-links a {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 500;
-    transition: .3s;
-}
-*/
-/*
-.education-links a:hover {
-    text-decoration: underline;
-}
-*/
-
 /* ================= EDUCATION CARDS ================= */
 
 .education-card{
@@ -481,6 +376,67 @@ main{
 }
 .project-links a:hover{
     text-decoration:underline;
+}
+
+/* ================= PROJECT DETAILS ================= */
+
+.project-details{
+    display:none;
+    margin-top:20px;
+    padding-top:20px;
+    border-top:1px solid #dcdcdc;
+    animation:fadeDown .35s ease;
+}
+
+.project-image{
+    width:100%;
+    border-radius:12px;
+    margin:15px 0 25px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.details-btn{
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    padding:10px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    transition:.3s;
+}
+
+.details-btn:hover{
+    background:#1d4ed8;
+}
+
+.project-details h4{
+    margin-top:22px;
+    margin-bottom:10px;
+    color:#1f2937;
+    font-size:20px;
+}
+
+.project-details ul{
+    padding-left:22px;
+}
+
+.project-details li{
+    margin-bottom:8px;
+}
+
+@keyframes fadeDown{
+
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
 }
 
 /* =================== RESPONSIVE DESIGN ========================== */
