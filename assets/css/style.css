@@ -314,7 +314,7 @@ main{
     text-align: left;           
 }
 */
-  
+
 /*
 #software h2 {
     display: flex;
@@ -324,7 +324,6 @@ main{
     font-weight: 700;
 }
 */
-
 /*
 .project h3 {
     display: flex;
@@ -334,14 +333,12 @@ main{
     font-weight: 600;
 }
 */
-
 /*
 .project h3 i {
     font-size: 20px;
     color: #2563eb;         
 }
 */
-
 /*
 .project-meta {
     margin-top: 6px;
@@ -350,8 +347,6 @@ main{
     letter-spacing: 1px;
     word-spacing: 8px;      
 } */
-
-
 /*
 #education h1 {
     display: flex;          
@@ -360,7 +355,6 @@ main{
     font-size: 22px;
     font-weight: 700;
 } */
-
 /*
 .education-card h3 {
     display: flex;
@@ -369,7 +363,6 @@ main{
     font-size: 18px;
     font-weight: 600;
 }*/
-
 /* 
 .education-meta {
     margin-top: 6px;            
@@ -378,7 +371,6 @@ main{
     letter-spacing: 1px;
     word-spacing: 12px;          
 }*/
-
 /*
 .education-links a {
     color: #2563eb;
@@ -387,7 +379,6 @@ main{
     transition: .3s;
 }
 */
-
 /*
 .education-links a:hover {
     text-decoration: underline;
