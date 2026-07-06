@@ -393,6 +393,7 @@ main{
     border-radius:18px;
     padding:22px 24px;
     margin:18px 0;
+    margin-bottom:10px; 
     box-shadow:0 4px 15px rgba(0,0,0,.08);
     transition:.35s ease;
 }
@@ -435,6 +436,7 @@ main{
     border-radius:18px;
     padding:24px;
     margin:22px 0;
+    margin-bottom: 10px;
     box-shadow:0 4px 15px rgba(0,0,0,.08);
     transition:.35s;
 }
@@ -481,6 +483,7 @@ main{
     border-radius:18px;
     padding:24px;
     margin:22px 0;
+    margin-bottom: 10px;
     box-shadow:0 4px 15px rgba(0,0,0,.08);
     transition:.35s;
 }
