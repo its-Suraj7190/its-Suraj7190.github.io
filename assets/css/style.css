@@ -417,13 +417,13 @@ main{
     gap:10px;
     font-size:22px;
     color:#1f2937;
-    margin-bottom:8px;
+    margin-bottom: 6px;
 }
 
 .education-meta{
     color:#555;
     font-size:15px;
-    margin-bottom:10px;
+    margin-bottom: 5px;
 }
 
 .education-links a{
@@ -459,11 +459,12 @@ main{
     gap:10px;
     font-size:22px;
     color:#1f2937;
+    margin-bottom: 6px;
 }
 
 .paper-meta{
     color:#666;
-    margin:10px 0;
+    margin:5px 0;
     font-size:15px;
 }
 
@@ -504,11 +505,12 @@ main{
     gap:10px;
     font-size:22px;
     color:#1f2937;
+    margin-bottom: 6px;
 }
 
 .project-meta{
     color:#666;
-    margin:10px 0;
+    margin: 5px 0;
     font-size:15px;
 }
 
