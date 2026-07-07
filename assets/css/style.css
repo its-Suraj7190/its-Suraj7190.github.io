@@ -451,3 +451,6 @@ main{
     text-decoration: none; /* removes underline */
     color: #A6CE39;        /* optional: set text color */
 }
+.resume-links a{
+ text-decoration: none;
+}
