@@ -446,10 +446,8 @@ main{
         transform:translateY(0);
     }
 }
+
 .publication-links a {
     text-decoration: none; /* removes underline */
     color: #A6CE39;        /* optional: set text color */
-}
-.publication-links a:hover {
-    text-decoration: none; /* keeps underline off on hover */
 }
