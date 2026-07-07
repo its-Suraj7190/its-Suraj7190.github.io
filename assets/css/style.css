@@ -132,41 +132,73 @@ main{
 }
 
 /* =============== HOME ===========================*/
-
 .home{
     min-height:calc(100vh - 30px);
-    background:white;
+    position:relative;
     border-radius:10px;
     overflow:hidden;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    background:transparent;
 }
 
+.home::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:600px;
+    background:rgba(255,255,255,.18);
+    pointer-events:none;
+}
+.home-btn{
+    margin-top:35px;
+}
+
+.home-btn a{
+    position:absolute;
+    top:72%;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:10;
+}
+
+.home-btn a:hover{
+    background:#2563eb;
+    color:#fff;
+}
 
 /* ================  COVER IMAGE  ========================== */
 
 .cover-image{
     width:100%;
-    height:600px;
+    height:100vh;
     overflow:hidden;
+    position:relative;
 }
 .cover-image img{
     width:100%;
     height:100%;
     object-fit:cover;
 }
+.cover-image::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.18);
+}
 
 /* ===============  PROFILE  ==========================*/
 
 .profile{
-    display:flex;
-    justify-content:center;
-    margin-top:-180px;
-    position: relative;
+    position:absolute;
+    top:18%;
+    left:50%;
+    transform:translateX(-50%);
     z-index:10;
 }
 .profile img{
-    width:170px;
-    height:170px;
+    width:180px;
+    height:180px;
     border-radius:50%;
     border:5px solid white;
     object-fit:cover;
@@ -177,8 +209,13 @@ main{
 /*  ======================   INTRO  ======================= */
 
 .intro{
+    position:absolute;
+    top:48%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:70%;
     text-align:center;
-    padding:18px 40px 50px;
+    z-index:10;
 }
 .intro h2{
     color:#2563eb;
@@ -206,40 +243,8 @@ main{
     line-height:1.8;
     color:#555;
 }
-/*===== Home =================*/
-.home{
-    position:relative;
-}
 
-.home::before{
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:600px;
-    background:rgba(255,255,255,.18);
-    pointer-events:none;
-}
-.home-btn{
-    margin-top:35px;
-}
 
-.home-btn a{
-    display:inline-block;
-    padding:14px 35px;
-    border:2px solid #2563eb;
-    border-radius:40px;
-    color:#2563eb;
-    text-decoration:none;
-    font-weight:600;
-    transition:.3s;
-}
-
-.home-btn a:hover{
-    background:#2563eb;
-    color:#fff;
-}
 
 /* ================= CONTENT SECTIONS ================= */
 .content-section{
