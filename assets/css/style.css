@@ -176,10 +176,7 @@ main{
 /* ================  COVER IMAGE  ========================== */
 
 .cover-image{
-    width:100%;
     height:95vh;
-    overflow:hidden;
-    position:relative;
 }
 .cover-image img{
     width:100%;
