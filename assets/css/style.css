@@ -211,7 +211,7 @@ main{
     border:5px solid white;
     object-fit:cover;
     box-shadow:0 8px 30px rgba(0,0,0,.18);
-    border-radius:10px;
+    border-radius:50%;
 }
 
 
@@ -225,11 +225,6 @@ main{
     width:70%;
     text-align:center;
     z-index:100;
-}
-.intro h2{
-    color:#2563eb;
-    font-weight:400;
-    margin-top:5px;
 }
 .intro h1{
     font-size:48px;
