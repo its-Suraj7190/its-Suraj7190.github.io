@@ -186,6 +186,7 @@ main{
     height:100%;
     object-fit:cover;
     object-position:center 75%;
+    border-radius:10px;
 
 }
 .cover-image::after{
