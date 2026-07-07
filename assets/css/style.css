@@ -180,6 +180,7 @@ main{
     position:relative;
     overflow:hidden;
     z-index:1;
+    border-radius:10px;
 }
 .cover-image img{
     width:100%;
