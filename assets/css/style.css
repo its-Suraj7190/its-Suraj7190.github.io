@@ -155,16 +155,22 @@ main{
 }
 
 .home-btn a{
-    position:absolute;
-    top:72%;
-    left:50%;
-    transform:translateX(-50%);
-    z-index:10;
+   display:inline-block;
+   padding:14px 36px;
+   border:2px solid #2563eb;
+   border-radius:40px;
+   background:transparent;
+   color:#2563eb;
+   text-decoration:none;
+   font-size:18px;
+   font-weight:600;
+   transition:.35s;
 }
 
 .home-btn a:hover{
     background:#2563eb;
     color:#fff;
+    transform:translateY(-3px);
 }
 
 /* ================  COVER IMAGE  ========================== */
@@ -179,11 +185,12 @@ main{
     width:100%;
     height:100%;
     object-fit:cover;
-    border-radius:15px;
+    border-radius:10px;
 }
 .cover-image::after{
     content:"";
     position:absolute;
+    border-radius:10px;
     inset:0;
     background:rgba(0,0,0,.18);
 }
@@ -217,6 +224,11 @@ main{
     width:70%;
     text-align:center;
     z-index:10;
+}
+.intro h2{
+    color:#2563eb;
+    font-weight:400;
+    margin-top:5px;
 }
 .intro h1{
     font-size:48px;
