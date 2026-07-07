@@ -376,7 +376,8 @@ main{
 
 }
 .project-links a:hover{
-    background:#ffffff;
+    background:#000000;
+    color:#ffffff;
     text-decoration:underline;
 }
 
