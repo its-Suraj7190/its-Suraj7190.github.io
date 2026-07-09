@@ -234,13 +234,6 @@ main{
     word-spacing: 13px;
 
 }
-.intro h3{
-    margin-top:12px;
-    letter-spacing:1px;
-    word-spacing:12px;
-    font-weight:500;
-    color:#2563eb;
-}
 .intro p{
     width:70%;
     margin:auto;
